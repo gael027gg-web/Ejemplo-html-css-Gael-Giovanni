@@ -1,0 +1,21 @@
+h1{
+    color: blueviolet;
+}
+
+p{
+    color:red;
+}
+/* Aplica el estilo al que tenga el ID de primerparrafo*/
+#primerparrafo{
+    color:chartreuse;
+
+}
+/* Aplica el estilo al que tenga el "grupoparrafos" */
+.grupoparrafos{
+    color:blue;
+
+}
+
+h1:hover{
+    color: black;
+}

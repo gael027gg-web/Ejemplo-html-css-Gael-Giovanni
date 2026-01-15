@@ -1,0 +1,36 @@
+div{
+    width: 200px;
+    height: 200px;
+}
+
+/*palabras claves*/
+#aplicacolor1{
+    background-color: red;
+}
+/* hexadecimal*/
+#aplicacolor2{
+    background-color: #0a950a;
+}
+/*RGB*/
+#aplicacolor3{
+    background-color: rgb(255, 221, 0);
+}
+/*HSL*/
+#aplicacolor4{
+    background-color: hsl(250, 86%, 33%);
+}
+/*lineal-gradiante*/
+#aplicacolor5{
+    background: linear-gradient(90deg, blue, red);
+}
+/*gradiante*/
+#aplicacolor6{
+    background: radial-gradient(blue,green,red,orange);
+}
+
+#imagencuadro{
+    width: 100%;
+    height: 100vh;
+
+    background: blue url(img/Siete\ por\ ocho_.jpg) no-repeat center;
+}

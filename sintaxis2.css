@@ -1,0 +1,22 @@
+#contenedor{
+    color:yellow;
+
+}
+#contenedor p:first-child{
+    color:blue;
+}
+
+#contenedor p:last-child{
+    color:aquamarine;
+
+}
+/* Comentario*/
+/* un item en especifico*/
+/* even - pares; odd - impares*/
+ #contenedor p:nth-child(odd){
+    color: burlywood;
+ }
+
+ #contenedor p:nth-child(even){
+    color: darkblue;
+ }
